@@ -1,0 +1,50 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007BFF; /* Azul */
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar-logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin: 0 15px;
+  }
+  
+  .navbar-menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar-menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-login .login-button {
+    padding: 8px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #007BFF;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .navbar-login .login-button:hover {
+    background-color: #e0e0e0;
+  }
+  
